@@ -1,0 +1,13 @@
+prefix=/Users/aarushsingh/Downloads/TEXT 2 SQL LLM/venv
+exec_prefix=/Users/aarushsingh/Downloads/TEXT 2 SQL LLM/venv
+libdir=/Users/aarushsingh/Downloads/TEXT 2 SQL LLM/venv/lib
+sharedlibdir=/Users/aarushsingh/Downloads/TEXT 2 SQL LLM/venv/lib
+includedir=/Users/aarushsingh/Downloads/TEXT 2 SQL LLM/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
